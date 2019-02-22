@@ -17,3 +17,19 @@ class LinearEq:
 
 x=LinearEq.slope(10,20,3)
 x    
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+        self.surname = surname
+        
+ 
+    def age(self):
+        today = datetime.date.today()
+        age = today.year - self.birthdate.year
+ 
+        if today < datetime.date(today.year, self.birthdate.month, self.birthdate.day):
+            age -= 1
+ 
+        return age
+x=Person.name('Dan')
